@@ -63,6 +63,12 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     parent = "files"
+    name = "Open Notepad"
+    url = "open_notepad.exe"
+    weight = 1
+
+[[menu.main]]
+    parent = "files"
     name = "Watcher 1"
     url = "watcher_1.scr"
     weight = 1
