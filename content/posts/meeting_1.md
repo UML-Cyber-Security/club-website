@@ -15,6 +15,10 @@ I have made a harmless program at <https://umlcyber.club/open_notepad.exe> for y
 
 These directions can be downloaded at: [meeting_1.md](meeting_1.md)
 
+You can also view them on github: <https://github.com/UML-Cyber-Security/Fall_2023/blob/main/Meeting_1_Phishing_Payloads/lab_1.md>
+
+For further reading, take a look at: <https://github.com/UML-Cyber-Security/Fall_2023/blob/main/Meeting_1_Phishing_Payloads/further_notes.md>
+
 ## Table of Contents
 - [Social Phish](#social-phish)
 - [Macros](#macros)
