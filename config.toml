@@ -62,6 +62,17 @@ pygmentsCodefencesGuessSyntax = true
     weight = 2
 
 [[menu.main]]
+    identifier = "meeting_notes"
+    name = "Meeting Notes"
+    weight = 1
+
+[[menu.main]]
+    parent = "meeting_notes"
+    name = "Meeting 1"
+    url = "posts/meeting_1"
+    weight = 1
+
+[[menu.main]]
     parent = "files"
     name = "Open Notepad"
     url = "open_notepad.exe"
@@ -72,3 +83,4 @@ pygmentsCodefencesGuessSyntax = true
     name = "Watcher 1"
     url = "watcher_1.scr"
     weight = 1
+
