@@ -58,9 +58,21 @@ Popularized by Hak5, this is a common language for keystroke injector tools.
 
 Some keystroke injectors double as both a real USB and a keystroke injector, so the victim won't notice the difference. 
 #### Installing Script Emulator
+We would like to use this program <https://github.com/taibhse-designs/DuckyEmulator>
+
+So we get it with 
+
+`git clone https://github.com/taibhse-designs/DuckyEmulator.git`
+
+Run the following command in the repository's `src` directory
+
 `curl https://dlcdn.apache.org//commons/codec/binaries/commons-codec-1.16.0-bin.tar.gz -o commons-codec-1.16.0-bin.tar.gz`
 
+Extract the library with
+
 `tar -xzf commons-codec-1.16.0-bin.tar.gz `
+
+And compile the java code with
 
 `javac -cp .:commons-codec-1.16.0/commons-codec-1.16.0.jar *.java`
 
