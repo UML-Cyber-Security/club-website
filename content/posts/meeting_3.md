@@ -64,7 +64,11 @@ So we get it with
 
 `git clone https://github.com/taibhse-designs/DuckyEmulator.git`
 
-Run the following command in the repository's `src` directory
+Go into the following directory with this command
+
+`cd DuckyEmulator/src/duckyemulator`
+
+Run the following command in the `duckyemulator` directory
 
 `curl https://dlcdn.apache.org//commons/codec/binaries/commons-codec-1.16.0-bin.tar.gz -o commons-codec-1.16.0-bin.tar.gz`
 
@@ -76,7 +80,7 @@ And compile the java code with
 
 `javac -cp .:commons-codec-1.16.0/commons-codec-1.16.0.jar *.java`
 
-From the `src` directory: `java -cp .:duckyemulator/commons-codec-1.16.0/commons-codec-1.16.0.jar duckyemulator.DuckyEmulator`
+From the `duckyemulator` directory: `java -cp .:duckyemulator/commons-codec-1.16.0/commons-codec-1.16.0.jar duckyemulator.DuckyEmulator`
 
 
 ### Ducky Script
