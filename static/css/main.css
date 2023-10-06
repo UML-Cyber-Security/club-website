@@ -40,8 +40,8 @@ p + p {
     margin: 24px 0 6px 0;
 }
 p a {
-  /* text-decoration: underline */
-  color: var(--lin);
+  text-decoration: underline;
+  color: var(--primary);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -49,12 +49,12 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 800;
 }
 a {
-  color: #008AFF;
+  color: var(--primary);
 }
 
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: var(--link-hover);
 }
 blockquote {
   color: #808080;
@@ -374,7 +374,7 @@ footer div.disclaimer {
 
 .post-preview a {
   text-decoration: none;
-  color: #404040;
+  color: #969696;
 }
 
 .post-preview a:focus,
@@ -661,9 +661,9 @@ footer div.disclaimer {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 10px 5px;
-  background: #FFF;
+  background: var(--link-hover);
   border-radius: 0;
-  color: #404040;
+  color: var(--background);
 }
 @media only screen and (min-width: 768px) {
   .pager li a {
@@ -672,9 +672,9 @@ footer div.disclaimer {
 }
 .pager li a:hover,
 .pager li a:focus {
-  color: #FFF;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  color: var(--background);
+  background: var(--accent);
+  border: 1px solid var(--accent);
 }
 
 .pager {
@@ -825,7 +825,7 @@ h4.see-also {
   font-size: 16px;
   text-align: center;
   transition: all 150ms ease-in-out;
-  color: #fff;
+  color: var(--secondary-darker);
 }
  ul.share li a {
   background-color: #b5c6ce;
