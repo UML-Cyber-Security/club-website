@@ -20,6 +20,14 @@ body {
   height: 100vh;
 }
 
+code {
+  background-color: #526052;
+  color:#01fe30;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
 .container[role=main] {
   margin-bottom:50px;
   flex: 1 0 auto;
